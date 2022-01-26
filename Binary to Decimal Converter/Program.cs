@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +10,17 @@ namespace Binary_to_Decimal_Converter
     {
         static void Main(string[] args)
         {
-            double[] numeri_binari = new double[8];
+            Console.Write("Inert how many number you wanna convert: ");
+            int array_lenght;
+            do { } while (int.TryParse(Console.ReadLine(), out array_lenght));
+            double[] numeri_binari = new double[array_lenght];
             double numero_convertito = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < array_lenght; i++)
             {
-                Console.Write("Inserire un numero binario: ");
+                Console.Write($"Insert the {i} binary number: ");
                 do { } while ((double.TryParse(Console.ReadLine(), out numeri_binari[i]) && !(numeri_binari[i] == 0 || numeri_binari[i] == 1)));
             }
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < array_lenght; i++)
             {
                 if (numeri_binari[i] == 0)
                 {
@@ -28,7 +31,7 @@ namespace Binary_to_Decimal_Converter
                     numero_convertito += Math.Pow(2, i);
                 }
             }
-            Console.WriteLine(numero_convertito);
+            Console.WriteLine($"The converted number is {numero_convertito}");
 
             Console.ReadKey();
         }
