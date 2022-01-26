@@ -1,0 +1,7 @@
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\bin\Debug\Binary to Decimal Converter.exe.config
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\bin\Debug\Binary to Decimal Converter.exe
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\bin\Debug\Binary to Decimal Converter.pdb
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\obj\Debug\Binary to Decimal Converter.csproj.AssemblyReference.cache
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\obj\Debug\Binary to Decimal Converter.csproj.CoreCompileInputs.cache
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\obj\Debug\Binary to Decimal Converter.exe
+C:\Users\fslongo\source\repos\Binary to Decimal Converter\Binary to Decimal Converter\obj\Debug\Binary to Decimal Converter.pdb
